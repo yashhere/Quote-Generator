@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/******************* CSS RESETS ENDS HERE ************************/
+
+/******************* MY CSS STARTS HERE **************************/
+
+body {
+	background-color: #2A2E3E;
+}
+
+.heading {
+	height:auto;
+	text-align: center;
+	font-size: 100px;
+	color: #ED6639;
+	padding-top: 7%;
+	font-family: Allura;
+	font-weight: bold;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+.heading:hover {
+	color: #CF4858;
+}
+
+.quote {
+	width: 50%;
+	height: 220px;
+	margin-right:auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+
+#quote {
+	display: block;
+	margin: 0 auto;
+	font-size: 30px;
+	font-family: Cabin;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+}
+
+#author {
+	padding-top: 20px;
+	font-size: 20px;
+	font-family: 'Raleway';
+	font-weight: bold;
+	text-align: right;
+	display: block;
+	margin: 0 auto;
+	color: #D1C5B7;
+}
+
+button {
+	background: transparent none repeat scroll 0% 0%;
+	padding: 5px 20px 5px 20px;
+	font-weight: bolder;
+	font-size: 30px;
+	font-family: Rosario;
+	color: #ffffff;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	display: block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid trasparent;
+	border-radius: 0.2em;
+	box-shadow: none;
+	outline: 0;
+	text-transform: uppercase;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;	
+}
+
+button:hover {
+	background-color: #CF4858;
+}
+
+footer {
+	height:auto;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 3%;
+	font-family: 'Allura';
+	font-weight: bold;
+}
+
+.heart {
+	color: white;
+	transition-property: all;
+	transition-duration: 0.7s;
+	transition-timing-function: ease-out;
+}
+
+.heart:hover {
+	color: #B81D18;
+}
+
+a {
+	text-decoration: none;
+	color: #F8DC0B;
+}
+
+h3 {
+	color: #F8DC0B;
+}
+
+.quote {
+opacity:1;
+transition: opacity 1s; 
+}
+
+.quote.fade {
+opacity:0;
+}
